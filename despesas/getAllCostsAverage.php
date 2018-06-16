@@ -1,7 +1,7 @@
 <?php
 
 
-    require_once("../../../functions.php");
+    require_once("../functions.php");
     $database = connect_DB();
     
     $mes_inicial = @$_GET["mesIni"];
